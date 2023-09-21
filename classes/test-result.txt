@@ -1,0 +1,66 @@
+=== Test Summary
+NAME                 VALUE                                      
+───────────────────  ───────────────────────────────────────────
+Outcome              Passed                                     
+Tests Ran            27                                         
+Pass Rate            100%                                       
+Fail Rate            0%                                         
+Skip Rate            0%                                         
+Test Run Id          7077R0000EQdr29                            
+Test Execution Time  813 ms                                     
+Org Id               00D7R000004wjV3UAI                         
+Username             dmytro.fedchyshyn@cunning-badger-uyu1oz.com
+Org Wide Coverage    62%                                        
+
+
+=== Test Results
+TEST NAME                                              OUTCOME  MESSAGE  RUNTIME (MS)
+─────────────────────────────────────────────────────  ───────  ───────  ────────────
+SoqlBuilderTest.testRealDbQuery                        Pass              92          
+SoqlBuilderTest.testSelectFields                       Pass              4           
+SoqlBuilderTest.testSetConditionIn                     Pass              3           
+SoqlBuilderTest.testSetConditionIncludes               Pass              3           
+SoqlBuilderTest.testZeroLimit                          Pass              4           
+SoqlBuilderTest.testComplexCondition                   Pass              80          
+SoqlBuilderTest.testComplexConditionRealDbQuery        Pass              109         
+SoqlBuilderTest.testCondition                          Pass              8           
+SoqlBuilderTest.testEmptyFields                        Pass              4           
+SoqlBuilderTest.testGroupConditionAnd                  Pass              3           
+SoqlBuilderTest.testGroupConditionOr                   Pass              3           
+SoqlBuilderTest.testInvalidField                       Pass              6           
+SoqlBuilderTest.testInvalidSObjectType                 Pass              3           
+SoqlBuilderTest.testLimitRecords                       Pass              4           
+SoqlBuilderTest.testMissingSObjectType                 Pass              4           
+SoqlBuilderTest.testNegativeLimit                      Pass              4           
+SoqlBuilderTest.testOrderBy                            Pass              4           
+LoggerTest.testLogInfo                                 Pass              259         
+ShapeFactoryTest.testGetShape                          Pass              46          
+ConfigurationManagerTest.getConfigurationByNameTest    Pass              95          
+ConfigurationManagerTest.getInstanceTest               Pass              4           
+ConfigurationManagerTest.updateConfigurationValueTest  Pass              39          
+StringBuilderTest.testAppendAndToString                Pass              23          
+StringBuilderTest.testAppendWithNull                   Pass              3           
+StringBuilderTest.testEmptyStringBuilder               Pass              2           
+StringBuilderTest.testMultipleAppends                  Pass              2           
+StringBuilderTest.testSingleAppend                     Pass              2           
+
+
+=== Apex Code Coverage by Class
+CLASSES                 PERCENT  UNCOVERED LINES  
+──────────────────────  ───────  ─────────────────
+Lists                   22%      2,3,10,11,12...  
+FieldCondition          48%      14,27,34,35,36...
+SetCondition            47%      13,21,22,23,25...
+LogEventTriggerHandler  100%                      
+Square                  0%       2                
+StringBuilder           100%                      
+SoqlBuilder             91%      21,22,32,89      
+Circle                  0%       2                
+Rectangle               0%       2                
+Logger                  50%      13,14,15,16,17...
+LogEventTrigger         100%                      
+Collections             100%                      
+ShapeFactory            90%      4                
+Condition               25%      4,8,9            
+ConfigurationManager    75%      25,26,27,28      
+GroupCondition          61%      20,21,22,25,26...

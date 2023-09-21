@@ -1,0 +1,6312 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 27,
+    "passing": 27,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "testStartTime": "Wed Sep 20 2023 4:35:19 PM",
+    "testExecutionTime": "813 ms",
+    "testTotalTime": "813 ms",
+    "commandTime": "232 ms",
+    "hostname": "https://cunning-badger-uyu1oz-dev-ed.trailblaze.my.salesforce.com",
+    "orgId": "00D7R000004wjV3UAI",
+    "username": "dmytro.fedchyshyn@cunning-badger-uyu1oz.com",
+    "testRunId": "7077R0000EQdr29",
+    "userId": "0057R00000Dcnx8QAB",
+    "testRunCoverage": "66%",
+    "orgWideCoverage": "62%"
+  },
+  "tests": [
+    {
+      "Id": "07M7R000008eNVkUAM",
+      "QueueItemId": "7097R000001MMbpQAG",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077R0000EQdr29QQB",
+      "MethodName": "testRealDbQuery",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7R00000BYsbtQAD",
+        "Name": "SoqlBuilderTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 92,
+      "FullName": "SoqlBuilderTest.testRealDbQuery"
+    },
+    {
+      "Id": "07M7R000008eNVlUAM",
+      "QueueItemId": "7097R000001MMbpQAG",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077R0000EQdr29QQB",
+      "MethodName": "testSelectFields",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7R00000BYsbtQAD",
+        "Name": "SoqlBuilderTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 4,
+      "FullName": "SoqlBuilderTest.testSelectFields"
+    },
+    {
+      "Id": "07M7R000008eNVmUAM",
+      "QueueItemId": "7097R000001MMbpQAG",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077R0000EQdr29QQB",
+      "MethodName": "testSetConditionIn",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7R00000BYsbtQAD",
+        "Name": "SoqlBuilderTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 3,
+      "FullName": "SoqlBuilderTest.testSetConditionIn"
+    },
+    {
+      "Id": "07M7R000008eNVnUAM",
+      "QueueItemId": "7097R000001MMbpQAG",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077R0000EQdr29QQB",
+      "MethodName": "testSetConditionIncludes",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7R00000BYsbtQAD",
+        "Name": "SoqlBuilderTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 3,
+      "FullName": "SoqlBuilderTest.testSetConditionIncludes"
+    },
+    {
+      "Id": "07M7R000008eNVoUAM",
+      "QueueItemId": "7097R000001MMbpQAG",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077R0000EQdr29QQB",
+      "MethodName": "testZeroLimit",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7R00000BYsbtQAD",
+        "Name": "SoqlBuilderTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 4,
+      "FullName": "SoqlBuilderTest.testZeroLimit"
+    },
+    {
+      "Id": "07M7R000008eNVYUA2",
+      "QueueItemId": "7097R000001MMbpQAG",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077R0000EQdr29QQB",
+      "MethodName": "testComplexCondition",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7R00000BYsbtQAD",
+        "Name": "SoqlBuilderTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 80,
+      "FullName": "SoqlBuilderTest.testComplexCondition"
+    },
+    {
+      "Id": "07M7R000008eNVZUA2",
+      "QueueItemId": "7097R000001MMbpQAG",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077R0000EQdr29QQB",
+      "MethodName": "testComplexConditionRealDbQuery",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7R00000BYsbtQAD",
+        "Name": "SoqlBuilderTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 109,
+      "FullName": "SoqlBuilderTest.testComplexConditionRealDbQuery"
+    },
+    {
+      "Id": "07M7R000008eNVaUAM",
+      "QueueItemId": "7097R000001MMbpQAG",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077R0000EQdr29QQB",
+      "MethodName": "testCondition",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7R00000BYsbtQAD",
+        "Name": "SoqlBuilderTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 8,
+      "FullName": "SoqlBuilderTest.testCondition"
+    },
+    {
+      "Id": "07M7R000008eNVbUAM",
+      "QueueItemId": "7097R000001MMbpQAG",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077R0000EQdr29QQB",
+      "MethodName": "testEmptyFields",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7R00000BYsbtQAD",
+        "Name": "SoqlBuilderTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 4,
+      "FullName": "SoqlBuilderTest.testEmptyFields"
+    },
+    {
+      "Id": "07M7R000008eNVcUAM",
+      "QueueItemId": "7097R000001MMbpQAG",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077R0000EQdr29QQB",
+      "MethodName": "testGroupConditionAnd",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7R00000BYsbtQAD",
+        "Name": "SoqlBuilderTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 3,
+      "FullName": "SoqlBuilderTest.testGroupConditionAnd"
+    },
+    {
+      "Id": "07M7R000008eNVdUAM",
+      "QueueItemId": "7097R000001MMbpQAG",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077R0000EQdr29QQB",
+      "MethodName": "testGroupConditionOr",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7R00000BYsbtQAD",
+        "Name": "SoqlBuilderTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 3,
+      "FullName": "SoqlBuilderTest.testGroupConditionOr"
+    },
+    {
+      "Id": "07M7R000008eNVeUAM",
+      "QueueItemId": "7097R000001MMbpQAG",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077R0000EQdr29QQB",
+      "MethodName": "testInvalidField",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7R00000BYsbtQAD",
+        "Name": "SoqlBuilderTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 6,
+      "FullName": "SoqlBuilderTest.testInvalidField"
+    },
+    {
+      "Id": "07M7R000008eNVfUAM",
+      "QueueItemId": "7097R000001MMbpQAG",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077R0000EQdr29QQB",
+      "MethodName": "testInvalidSObjectType",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7R00000BYsbtQAD",
+        "Name": "SoqlBuilderTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 3,
+      "FullName": "SoqlBuilderTest.testInvalidSObjectType"
+    },
+    {
+      "Id": "07M7R000008eNVgUAM",
+      "QueueItemId": "7097R000001MMbpQAG",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077R0000EQdr29QQB",
+      "MethodName": "testLimitRecords",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7R00000BYsbtQAD",
+        "Name": "SoqlBuilderTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 4,
+      "FullName": "SoqlBuilderTest.testLimitRecords"
+    },
+    {
+      "Id": "07M7R000008eNVhUAM",
+      "QueueItemId": "7097R000001MMbpQAG",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077R0000EQdr29QQB",
+      "MethodName": "testMissingSObjectType",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7R00000BYsbtQAD",
+        "Name": "SoqlBuilderTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 4,
+      "FullName": "SoqlBuilderTest.testMissingSObjectType"
+    },
+    {
+      "Id": "07M7R000008eNViUAM",
+      "QueueItemId": "7097R000001MMbpQAG",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077R0000EQdr29QQB",
+      "MethodName": "testNegativeLimit",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7R00000BYsbtQAD",
+        "Name": "SoqlBuilderTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 4,
+      "FullName": "SoqlBuilderTest.testNegativeLimit"
+    },
+    {
+      "Id": "07M7R000008eNVjUAM",
+      "QueueItemId": "7097R000001MMbpQAG",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077R0000EQdr29QQB",
+      "MethodName": "testOrderBy",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7R00000BYsbtQAD",
+        "Name": "SoqlBuilderTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 4,
+      "FullName": "SoqlBuilderTest.testOrderBy"
+    },
+    {
+      "Id": "07M7R000008eNVsUAM",
+      "QueueItemId": "7097R000001MMbqQAG",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077R0000EQdr29QQB",
+      "MethodName": "testLogInfo",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7R00000BXjoPQAT",
+        "Name": "LoggerTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 259,
+      "FullName": "LoggerTest.testLogInfo"
+    },
+    {
+      "Id": "07M7R000008eNW7UAM",
+      "QueueItemId": "7097R000001MMbrQAG",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077R0000EQdr29QQB",
+      "MethodName": "testGetShape",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7R00000BY06TQAT",
+        "Name": "ShapeFactoryTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 46,
+      "FullName": "ShapeFactoryTest.testGetShape"
+    },
+    {
+      "Id": "07M7R000008eNVxUAM",
+      "QueueItemId": "7097R000001MMbsQAG",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077R0000EQdr29QQB",
+      "MethodName": "getConfigurationByNameTest",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7R00000BXyiBQAT",
+        "Name": "ConfigurationManagerTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 95,
+      "FullName": "ConfigurationManagerTest.getConfigurationByNameTest"
+    },
+    {
+      "Id": "07M7R000008eNVyUAM",
+      "QueueItemId": "7097R000001MMbsQAG",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077R0000EQdr29QQB",
+      "MethodName": "getInstanceTest",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7R00000BXyiBQAT",
+        "Name": "ConfigurationManagerTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 4,
+      "FullName": "ConfigurationManagerTest.getInstanceTest"
+    },
+    {
+      "Id": "07M7R000008eNVzUAM",
+      "QueueItemId": "7097R000001MMbsQAG",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077R0000EQdr29QQB",
+      "MethodName": "updateConfigurationValueTest",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7R00000BXyiBQAT",
+        "Name": "ConfigurationManagerTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 39,
+      "FullName": "ConfigurationManagerTest.updateConfigurationValueTest"
+    },
+    {
+      "Id": "07M7R000008eNW2UAM",
+      "QueueItemId": "7097R000001MMbtQAG",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077R0000EQdr29QQB",
+      "MethodName": "testAppendAndToString",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7R00000BYpUXQA1",
+        "Name": "StringBuilderTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 23,
+      "FullName": "StringBuilderTest.testAppendAndToString"
+    },
+    {
+      "Id": "07M7R000008eNW3UAM",
+      "QueueItemId": "7097R000001MMbtQAG",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077R0000EQdr29QQB",
+      "MethodName": "testAppendWithNull",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7R00000BYpUXQA1",
+        "Name": "StringBuilderTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 3,
+      "FullName": "StringBuilderTest.testAppendWithNull"
+    },
+    {
+      "Id": "07M7R000008eNW4UAM",
+      "QueueItemId": "7097R000001MMbtQAG",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077R0000EQdr29QQB",
+      "MethodName": "testEmptyStringBuilder",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7R00000BYpUXQA1",
+        "Name": "StringBuilderTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 2,
+      "FullName": "StringBuilderTest.testEmptyStringBuilder"
+    },
+    {
+      "Id": "07M7R000008eNW5UAM",
+      "QueueItemId": "7097R000001MMbtQAG",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077R0000EQdr29QQB",
+      "MethodName": "testMultipleAppends",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7R00000BYpUXQA1",
+        "Name": "StringBuilderTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 2,
+      "FullName": "StringBuilderTest.testMultipleAppends"
+    },
+    {
+      "Id": "07M7R000008eNW6UAM",
+      "QueueItemId": "7097R000001MMbtQAG",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077R0000EQdr29QQB",
+      "MethodName": "testSingleAppend",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7R00000BYpUXQA1",
+        "Name": "StringBuilderTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 2,
+      "FullName": "StringBuilderTest.testSingleAppend"
+    }
+  ],
+  "coverage": {
+    "coverage": [
+      {
+        "id": "01p7R00000BYsbUQAT",
+        "name": "Lists",
+        "totalLines": 9,
+        "lines": {
+          "2": 0,
+          "3": 0,
+          "6": 1,
+          "7": 1,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "16": 0
+        },
+        "totalCovered": 2,
+        "coveredPercent": 22
+      },
+      {
+        "id": "01p7R00000BYsbjQAD",
+        "name": "FieldCondition",
+        "totalLines": 23,
+        "lines": {
+          "9": 1,
+          "10": 1,
+          "11": 1,
+          "14": 0,
+          "25": 1,
+          "26": 1,
+          "27": 0,
+          "29": 1,
+          "30": 1,
+          "31": 1,
+          "34": 0,
+          "35": 0,
+          "36": 0,
+          "39": 0,
+          "40": 0,
+          "41": 0,
+          "44": 0,
+          "45": 0,
+          "46": 0,
+          "55": 1,
+          "56": 1,
+          "57": 0,
+          "59": 1
+        },
+        "totalCovered": 11,
+        "coveredPercent": 48
+      },
+      {
+        "id": "01p7R00000BYsbZQAT",
+        "name": "SetCondition",
+        "totalLines": 34,
+        "lines": {
+          "4": 1,
+          "7": 1,
+          "8": 1,
+          "9": 1,
+          "10": 1,
+          "13": 0,
+          "15": 1,
+          "16": 1,
+          "17": 1,
+          "18": 1,
+          "21": 0,
+          "22": 0,
+          "23": 0,
+          "25": 0,
+          "26": 0,
+          "27": 0,
+          "28": 0,
+          "31": 0,
+          "32": 0,
+          "33": 0,
+          "36": 0,
+          "37": 0,
+          "38": 0,
+          "41": 0,
+          "42": 0,
+          "43": 0,
+          "46": 1,
+          "47": 1,
+          "48": 1,
+          "49": 0,
+          "52": 1,
+          "55": 1,
+          "56": 1,
+          "57": 1
+        },
+        "totalCovered": 16,
+        "coveredPercent": 47
+      },
+      {
+        "id": "01p7R00000BXtPOQA1",
+        "name": "LogEventTriggerHandler",
+        "totalLines": 12,
+        "lines": {
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 1,
+          "10": 1,
+          "11": 1,
+          "12": 1,
+          "15": 1,
+          "16": 1
+        },
+        "totalCovered": 12,
+        "coveredPercent": 100
+      },
+      {
+        "id": "01p7R00000BY06JQAT",
+        "name": "Square",
+        "totalLines": 1,
+        "lines": {
+          "2": 0
+        },
+        "totalCovered": 0,
+        "coveredPercent": 0
+      },
+      {
+        "id": "01p7R00000BYpUSQA1",
+        "name": "StringBuilder",
+        "totalLines": 6,
+        "lines": {
+          "3": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "10": 1,
+          "11": 1
+        },
+        "totalCovered": 6,
+        "coveredPercent": 100
+      },
+      {
+        "id": "01p7R00000BYpZSQA1",
+        "name": "SoqlBuilder",
+        "totalLines": 47,
+        "lines": {
+          "11": 1,
+          "12": 1,
+          "15": 1,
+          "16": 1,
+          "17": 1,
+          "18": 1,
+          "21": 0,
+          "22": 0,
+          "25": 1,
+          "26": 1,
+          "27": 1,
+          "30": 1,
+          "31": 1,
+          "32": 0,
+          "35": 1,
+          "36": 1,
+          "37": 1,
+          "40": 1,
+          "41": 1,
+          "42": 1,
+          "45": 1,
+          "46": 1,
+          "47": 1,
+          "50": 1,
+          "51": 1,
+          "52": 1,
+          "55": 1,
+          "56": 1,
+          "57": 1,
+          "58": 1,
+          "59": 1,
+          "60": 1,
+          "62": 1,
+          "63": 1,
+          "65": 1,
+          "66": 1,
+          "68": 1,
+          "69": 1,
+          "72": 1,
+          "75": 1,
+          "77": 1,
+          "80": 1,
+          "81": 1,
+          "82": 1,
+          "87": 1,
+          "88": 1,
+          "89": 0
+        },
+        "totalCovered": 43,
+        "coveredPercent": 91
+      },
+      {
+        "id": "01p7R00000BY069QAD",
+        "name": "Circle",
+        "totalLines": 1,
+        "lines": {
+          "2": 0
+        },
+        "totalCovered": 0,
+        "coveredPercent": 0
+      },
+      {
+        "id": "01p7R00000BY06EQAT",
+        "name": "Rectangle",
+        "totalLines": 1,
+        "lines": {
+          "2": 0
+        },
+        "totalCovered": 0,
+        "coveredPercent": 0
+      },
+      {
+        "id": "01p7R00000BXjoAQAT",
+        "name": "Logger",
+        "totalLines": 26,
+        "lines": {
+          "4": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "10": 1,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0,
+          "23": 0,
+          "27": 1,
+          "28": 1,
+          "29": 1,
+          "30": 1,
+          "31": 1,
+          "32": 1,
+          "33": 1,
+          "34": 1,
+          "37": 0,
+          "41": 0,
+          "45": 0
+        },
+        "totalCovered": 13,
+        "coveredPercent": 50
+      },
+      {
+        "id": "01q7R000000pJdsQAE",
+        "name": "LogEventTrigger",
+        "totalLines": 1,
+        "lines": {
+          "2": 1
+        },
+        "totalCovered": 1,
+        "coveredPercent": 100
+      },
+      {
+        "id": "01p7R00000BYpZXQA1",
+        "name": "Collections",
+        "totalLines": 2,
+        "lines": {
+          "3": 1,
+          "4": 1
+        },
+        "totalCovered": 2,
+        "coveredPercent": 100
+      },
+      {
+        "id": "01p7R00000BY064QAD",
+        "name": "ShapeFactory",
+        "totalLines": 10,
+        "lines": {
+          "2": 1,
+          "3": 1,
+          "4": 0,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 1,
+          "10": 1,
+          "11": 1,
+          "13": 1
+        },
+        "totalCovered": 9,
+        "coveredPercent": 90
+      },
+      {
+        "id": "01p7R00000BYpZNQA1",
+        "name": "Condition",
+        "totalLines": 4,
+        "lines": {
+          "2": 1,
+          "4": 0,
+          "8": 0,
+          "9": 0
+        },
+        "totalCovered": 1,
+        "coveredPercent": 25
+      },
+      {
+        "id": "01p7R00000BXymTQAT",
+        "name": "ConfigurationManager",
+        "totalLines": 16,
+        "lines": {
+          "5": 1,
+          "7": 1,
+          "8": 1,
+          "9": 1,
+          "11": 1,
+          "14": 1,
+          "15": 1,
+          "18": 1,
+          "19": 1,
+          "20": 1,
+          "21": 1,
+          "22": 1,
+          "25": 0,
+          "26": 0,
+          "27": 0,
+          "28": 0
+        },
+        "totalCovered": 12,
+        "coveredPercent": 75
+      },
+      {
+        "id": "01p7R00000BYsboQAD",
+        "name": "GroupCondition",
+        "totalLines": 23,
+        "lines": {
+          "8": 1,
+          "9": 1,
+          "10": 1,
+          "13": 1,
+          "16": 1,
+          "17": 1,
+          "20": 0,
+          "21": 0,
+          "22": 0,
+          "25": 0,
+          "26": 0,
+          "27": 0,
+          "29": 0,
+          "30": 0,
+          "33": 1,
+          "34": 1,
+          "37": 1,
+          "38": 1,
+          "39": 0,
+          "42": 1,
+          "43": 1,
+          "44": 1,
+          "47": 1
+        },
+        "totalCovered": 14,
+        "coveredPercent": 61
+      }
+    ],
+    "records": [
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVkUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            5,
+            6,
+            7,
+            10,
+            11
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "testRealDbQuery",
+        "NumLinesCovered": 6,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpUSQA1",
+          "Name": "StringBuilder"
+        },
+        "NumLinesUncovered": 0
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVkUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            2
+          ],
+          "uncoveredLines": [
+            4,
+            8,
+            9
+          ]
+        },
+        "TestMethodName": "testRealDbQuery",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZNQA1",
+          "Name": "Condition"
+        },
+        "NumLinesUncovered": 3
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVkUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            4
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "testRealDbQuery",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZXQA1",
+          "Name": "Collections"
+        },
+        "NumLinesUncovered": 0
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVkUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            9,
+            10,
+            11,
+            25,
+            26,
+            29,
+            30,
+            31,
+            55,
+            56,
+            59
+          ],
+          "uncoveredLines": [
+            14,
+            27,
+            34,
+            35,
+            36,
+            39,
+            40,
+            41,
+            44,
+            45,
+            46,
+            57
+          ]
+        },
+        "TestMethodName": "testRealDbQuery",
+        "NumLinesCovered": 11,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbjQAD",
+          "Name": "FieldCondition"
+        },
+        "NumLinesUncovered": 12
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVkUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            16,
+            33,
+            37
+          ],
+          "uncoveredLines": [
+            8,
+            9,
+            10,
+            13,
+            17,
+            20,
+            21,
+            22,
+            25,
+            26,
+            27,
+            29,
+            30,
+            34,
+            38,
+            39,
+            42,
+            43,
+            44,
+            47
+          ]
+        },
+        "TestMethodName": "testRealDbQuery",
+        "NumLinesCovered": 3,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsboQAD",
+          "Name": "GroupCondition"
+        },
+        "NumLinesUncovered": 20
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVkUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            15,
+            46,
+            55
+          ],
+          "uncoveredLines": [
+            4,
+            7,
+            8,
+            9,
+            10,
+            13,
+            16,
+            17,
+            18,
+            21,
+            22,
+            23,
+            25,
+            26,
+            27,
+            28,
+            31,
+            32,
+            33,
+            36,
+            37,
+            38,
+            41,
+            42,
+            43,
+            47,
+            48,
+            49,
+            52,
+            56,
+            57
+          ]
+        },
+        "TestMethodName": "testRealDbQuery",
+        "NumLinesCovered": 3,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbZQAT",
+          "Name": "SetCondition"
+        },
+        "NumLinesUncovered": 31
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVkUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            6
+          ],
+          "uncoveredLines": [
+            2,
+            3,
+            7,
+            10,
+            11,
+            12,
+            13,
+            16
+          ]
+        },
+        "TestMethodName": "testRealDbQuery",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbUQAT",
+          "Name": "Lists"
+        },
+        "NumLinesUncovered": 8
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVkUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            11,
+            12,
+            15,
+            16,
+            17,
+            18,
+            25,
+            26,
+            27,
+            30,
+            35,
+            36,
+            37,
+            40,
+            45,
+            50,
+            51,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            62,
+            63,
+            65,
+            68,
+            72,
+            75,
+            77,
+            80,
+            81,
+            87,
+            88
+          ],
+          "uncoveredLines": [
+            21,
+            22,
+            31,
+            32,
+            41,
+            42,
+            46,
+            47,
+            52,
+            66,
+            69,
+            82,
+            89
+          ]
+        },
+        "TestMethodName": "testRealDbQuery",
+        "NumLinesCovered": 34,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZSQA1",
+          "Name": "SoqlBuilder"
+        },
+        "NumLinesUncovered": 13
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVlUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            25,
+            55
+          ],
+          "uncoveredLines": [
+            9,
+            10,
+            11,
+            14,
+            26,
+            27,
+            29,
+            30,
+            31,
+            34,
+            35,
+            36,
+            39,
+            40,
+            41,
+            44,
+            45,
+            46,
+            56,
+            57,
+            59
+          ]
+        },
+        "TestMethodName": "testSelectFields",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbjQAD",
+          "Name": "FieldCondition"
+        },
+        "NumLinesUncovered": 21
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVlUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            5,
+            6,
+            7,
+            10,
+            11
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "testSelectFields",
+        "NumLinesCovered": 6,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpUSQA1",
+          "Name": "StringBuilder"
+        },
+        "NumLinesUncovered": 0
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVlUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            4
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "testSelectFields",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZXQA1",
+          "Name": "Collections"
+        },
+        "NumLinesUncovered": 0
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVlUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            16,
+            33,
+            37
+          ],
+          "uncoveredLines": [
+            8,
+            9,
+            10,
+            13,
+            17,
+            20,
+            21,
+            22,
+            25,
+            26,
+            27,
+            29,
+            30,
+            34,
+            38,
+            39,
+            42,
+            43,
+            44,
+            47
+          ]
+        },
+        "TestMethodName": "testSelectFields",
+        "NumLinesCovered": 3,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsboQAD",
+          "Name": "GroupCondition"
+        },
+        "NumLinesUncovered": 20
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVlUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            2
+          ],
+          "uncoveredLines": [
+            4,
+            8,
+            9
+          ]
+        },
+        "TestMethodName": "testSelectFields",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZNQA1",
+          "Name": "Condition"
+        },
+        "NumLinesUncovered": 3
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVlUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            11,
+            12,
+            15,
+            16,
+            17,
+            18,
+            25,
+            26,
+            27,
+            30,
+            35,
+            40,
+            45,
+            50,
+            51,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            62,
+            65,
+            68,
+            72,
+            75,
+            77,
+            80,
+            81,
+            87,
+            88
+          ],
+          "uncoveredLines": [
+            21,
+            22,
+            31,
+            32,
+            36,
+            37,
+            41,
+            42,
+            46,
+            47,
+            52,
+            63,
+            66,
+            69,
+            82,
+            89
+          ]
+        },
+        "TestMethodName": "testSelectFields",
+        "NumLinesCovered": 31,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZSQA1",
+          "Name": "SoqlBuilder"
+        },
+        "NumLinesUncovered": 16
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVlUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            6
+          ],
+          "uncoveredLines": [
+            2,
+            3,
+            7,
+            10,
+            11,
+            12,
+            13,
+            16
+          ]
+        },
+        "TestMethodName": "testSelectFields",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbUQAT",
+          "Name": "Lists"
+        },
+        "NumLinesUncovered": 8
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVlUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            15,
+            46,
+            55
+          ],
+          "uncoveredLines": [
+            4,
+            7,
+            8,
+            9,
+            10,
+            13,
+            16,
+            17,
+            18,
+            21,
+            22,
+            23,
+            25,
+            26,
+            27,
+            28,
+            31,
+            32,
+            33,
+            36,
+            37,
+            38,
+            41,
+            42,
+            43,
+            47,
+            48,
+            49,
+            52,
+            56,
+            57
+          ]
+        },
+        "TestMethodName": "testSelectFields",
+        "NumLinesCovered": 3,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbZQAT",
+          "Name": "SetCondition"
+        },
+        "NumLinesUncovered": 31
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVmUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3
+          ],
+          "uncoveredLines": [
+            4
+          ]
+        },
+        "TestMethodName": "testSetConditionIn",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZXQA1",
+          "Name": "Collections"
+        },
+        "NumLinesUncovered": 1
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVmUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            4,
+            7,
+            8,
+            9,
+            10,
+            15,
+            16,
+            17,
+            18,
+            46,
+            47,
+            48,
+            52,
+            55,
+            56,
+            57
+          ],
+          "uncoveredLines": [
+            13,
+            21,
+            22,
+            23,
+            25,
+            26,
+            27,
+            28,
+            31,
+            32,
+            33,
+            36,
+            37,
+            38,
+            41,
+            42,
+            43,
+            49
+          ]
+        },
+        "TestMethodName": "testSetConditionIn",
+        "NumLinesCovered": 16,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbZQAT",
+          "Name": "SetCondition"
+        },
+        "NumLinesUncovered": 18
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVmUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            11,
+            15,
+            25,
+            30,
+            35,
+            40,
+            45,
+            50,
+            75,
+            87
+          ],
+          "uncoveredLines": [
+            12,
+            16,
+            17,
+            18,
+            21,
+            22,
+            26,
+            27,
+            31,
+            32,
+            36,
+            37,
+            41,
+            42,
+            46,
+            47,
+            51,
+            52,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            62,
+            63,
+            65,
+            66,
+            68,
+            69,
+            72,
+            77,
+            80,
+            81,
+            82,
+            88,
+            89
+          ]
+        },
+        "TestMethodName": "testSetConditionIn",
+        "NumLinesCovered": 10,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZSQA1",
+          "Name": "SoqlBuilder"
+        },
+        "NumLinesUncovered": 37
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVmUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            25,
+            55
+          ],
+          "uncoveredLines": [
+            9,
+            10,
+            11,
+            14,
+            26,
+            27,
+            29,
+            30,
+            31,
+            34,
+            35,
+            36,
+            39,
+            40,
+            41,
+            44,
+            45,
+            46,
+            56,
+            57,
+            59
+          ]
+        },
+        "TestMethodName": "testSetConditionIn",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbjQAD",
+          "Name": "FieldCondition"
+        },
+        "NumLinesUncovered": 21
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVmUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            2
+          ],
+          "uncoveredLines": [
+            4,
+            8,
+            9
+          ]
+        },
+        "TestMethodName": "testSetConditionIn",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZNQA1",
+          "Name": "Condition"
+        },
+        "NumLinesUncovered": 3
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVmUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            6,
+            7
+          ],
+          "uncoveredLines": [
+            2,
+            3,
+            10,
+            11,
+            12,
+            13,
+            16
+          ]
+        },
+        "TestMethodName": "testSetConditionIn",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbUQAT",
+          "Name": "Lists"
+        },
+        "NumLinesUncovered": 7
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVmUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            5,
+            10
+          ],
+          "uncoveredLines": [
+            3,
+            6,
+            7,
+            11
+          ]
+        },
+        "TestMethodName": "testSetConditionIn",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpUSQA1",
+          "Name": "StringBuilder"
+        },
+        "NumLinesUncovered": 4
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVmUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            16,
+            33,
+            37
+          ],
+          "uncoveredLines": [
+            8,
+            9,
+            10,
+            13,
+            17,
+            20,
+            21,
+            22,
+            25,
+            26,
+            27,
+            29,
+            30,
+            34,
+            38,
+            39,
+            42,
+            43,
+            44,
+            47
+          ]
+        },
+        "TestMethodName": "testSetConditionIn",
+        "NumLinesCovered": 3,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsboQAD",
+          "Name": "GroupCondition"
+        },
+        "NumLinesUncovered": 20
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVnUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            6,
+            7
+          ],
+          "uncoveredLines": [
+            2,
+            3,
+            10,
+            11,
+            12,
+            13,
+            16
+          ]
+        },
+        "TestMethodName": "testSetConditionIncludes",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbUQAT",
+          "Name": "Lists"
+        },
+        "NumLinesUncovered": 7
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVnUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            11,
+            15,
+            25,
+            30,
+            35,
+            40,
+            45,
+            50,
+            75,
+            87
+          ],
+          "uncoveredLines": [
+            12,
+            16,
+            17,
+            18,
+            21,
+            22,
+            26,
+            27,
+            31,
+            32,
+            36,
+            37,
+            41,
+            42,
+            46,
+            47,
+            51,
+            52,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            62,
+            63,
+            65,
+            66,
+            68,
+            69,
+            72,
+            77,
+            80,
+            81,
+            82,
+            88,
+            89
+          ]
+        },
+        "TestMethodName": "testSetConditionIncludes",
+        "NumLinesCovered": 10,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZSQA1",
+          "Name": "SoqlBuilder"
+        },
+        "NumLinesUncovered": 37
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVnUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            25,
+            55
+          ],
+          "uncoveredLines": [
+            9,
+            10,
+            11,
+            14,
+            26,
+            27,
+            29,
+            30,
+            31,
+            34,
+            35,
+            36,
+            39,
+            40,
+            41,
+            44,
+            45,
+            46,
+            56,
+            57,
+            59
+          ]
+        },
+        "TestMethodName": "testSetConditionIncludes",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbjQAD",
+          "Name": "FieldCondition"
+        },
+        "NumLinesUncovered": 21
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVnUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            5,
+            10
+          ],
+          "uncoveredLines": [
+            3,
+            6,
+            7,
+            11
+          ]
+        },
+        "TestMethodName": "testSetConditionIncludes",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpUSQA1",
+          "Name": "StringBuilder"
+        },
+        "NumLinesUncovered": 4
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVnUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            4,
+            7,
+            8,
+            9,
+            10,
+            15,
+            16,
+            17,
+            18,
+            46,
+            47,
+            48,
+            52,
+            55,
+            56,
+            57
+          ],
+          "uncoveredLines": [
+            13,
+            21,
+            22,
+            23,
+            25,
+            26,
+            27,
+            28,
+            31,
+            32,
+            33,
+            36,
+            37,
+            38,
+            41,
+            42,
+            43,
+            49
+          ]
+        },
+        "TestMethodName": "testSetConditionIncludes",
+        "NumLinesCovered": 16,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbZQAT",
+          "Name": "SetCondition"
+        },
+        "NumLinesUncovered": 18
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVnUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3
+          ],
+          "uncoveredLines": [
+            4
+          ]
+        },
+        "TestMethodName": "testSetConditionIncludes",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZXQA1",
+          "Name": "Collections"
+        },
+        "NumLinesUncovered": 1
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVnUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            16,
+            33,
+            37
+          ],
+          "uncoveredLines": [
+            8,
+            9,
+            10,
+            13,
+            17,
+            20,
+            21,
+            22,
+            25,
+            26,
+            27,
+            29,
+            30,
+            34,
+            38,
+            39,
+            42,
+            43,
+            44,
+            47
+          ]
+        },
+        "TestMethodName": "testSetConditionIncludes",
+        "NumLinesCovered": 3,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsboQAD",
+          "Name": "GroupCondition"
+        },
+        "NumLinesUncovered": 20
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVnUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            2
+          ],
+          "uncoveredLines": [
+            4,
+            8,
+            9
+          ]
+        },
+        "TestMethodName": "testSetConditionIncludes",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZNQA1",
+          "Name": "Condition"
+        },
+        "NumLinesUncovered": 3
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVoUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            6
+          ],
+          "uncoveredLines": [
+            2,
+            3,
+            7,
+            10,
+            11,
+            12,
+            13,
+            16
+          ]
+        },
+        "TestMethodName": "testZeroLimit",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbUQAT",
+          "Name": "Lists"
+        },
+        "NumLinesUncovered": 8
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVoUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            4
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "testZeroLimit",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZXQA1",
+          "Name": "Collections"
+        },
+        "NumLinesUncovered": 0
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVoUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            2
+          ],
+          "uncoveredLines": [
+            4,
+            8,
+            9
+          ]
+        },
+        "TestMethodName": "testZeroLimit",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZNQA1",
+          "Name": "Condition"
+        },
+        "NumLinesUncovered": 3
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVoUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            25,
+            55
+          ],
+          "uncoveredLines": [
+            9,
+            10,
+            11,
+            14,
+            26,
+            27,
+            29,
+            30,
+            31,
+            34,
+            35,
+            36,
+            39,
+            40,
+            41,
+            44,
+            45,
+            46,
+            56,
+            57,
+            59
+          ]
+        },
+        "TestMethodName": "testZeroLimit",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbjQAD",
+          "Name": "FieldCondition"
+        },
+        "NumLinesUncovered": 21
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVoUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            11,
+            12,
+            15,
+            16,
+            17,
+            18,
+            25,
+            26,
+            27,
+            30,
+            35,
+            40,
+            45,
+            46,
+            47,
+            50,
+            51,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            62,
+            65,
+            68,
+            72,
+            75,
+            77,
+            80,
+            81,
+            87,
+            88
+          ],
+          "uncoveredLines": [
+            21,
+            22,
+            31,
+            32,
+            36,
+            37,
+            41,
+            42,
+            52,
+            63,
+            66,
+            69,
+            82,
+            89
+          ]
+        },
+        "TestMethodName": "testZeroLimit",
+        "NumLinesCovered": 33,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZSQA1",
+          "Name": "SoqlBuilder"
+        },
+        "NumLinesUncovered": 14
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVoUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            5,
+            6,
+            7,
+            10,
+            11
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "testZeroLimit",
+        "NumLinesCovered": 6,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpUSQA1",
+          "Name": "StringBuilder"
+        },
+        "NumLinesUncovered": 0
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVoUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            15,
+            46,
+            55
+          ],
+          "uncoveredLines": [
+            4,
+            7,
+            8,
+            9,
+            10,
+            13,
+            16,
+            17,
+            18,
+            21,
+            22,
+            23,
+            25,
+            26,
+            27,
+            28,
+            31,
+            32,
+            33,
+            36,
+            37,
+            38,
+            41,
+            42,
+            43,
+            47,
+            48,
+            49,
+            52,
+            56,
+            57
+          ]
+        },
+        "TestMethodName": "testZeroLimit",
+        "NumLinesCovered": 3,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbZQAT",
+          "Name": "SetCondition"
+        },
+        "NumLinesUncovered": 31
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVoUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            16,
+            33,
+            37
+          ],
+          "uncoveredLines": [
+            8,
+            9,
+            10,
+            13,
+            17,
+            20,
+            21,
+            22,
+            25,
+            26,
+            27,
+            29,
+            30,
+            34,
+            38,
+            39,
+            42,
+            43,
+            44,
+            47
+          ]
+        },
+        "TestMethodName": "testZeroLimit",
+        "NumLinesCovered": 3,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsboQAD",
+          "Name": "GroupCondition"
+        },
+        "NumLinesUncovered": 20
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVYUA2",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            4
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "testComplexCondition",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZXQA1",
+          "Name": "Collections"
+        },
+        "NumLinesUncovered": 0
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVYUA2",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            9,
+            10,
+            11,
+            25,
+            26,
+            29,
+            30,
+            31,
+            55,
+            56,
+            59
+          ],
+          "uncoveredLines": [
+            14,
+            27,
+            34,
+            35,
+            36,
+            39,
+            40,
+            41,
+            44,
+            45,
+            46,
+            57
+          ]
+        },
+        "TestMethodName": "testComplexCondition",
+        "NumLinesCovered": 11,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbjQAD",
+          "Name": "FieldCondition"
+        },
+        "NumLinesUncovered": 12
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVYUA2",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            6,
+            7
+          ],
+          "uncoveredLines": [
+            2,
+            3,
+            10,
+            11,
+            12,
+            13,
+            16
+          ]
+        },
+        "TestMethodName": "testComplexCondition",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbUQAT",
+          "Name": "Lists"
+        },
+        "NumLinesUncovered": 7
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVYUA2",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            4,
+            7,
+            8,
+            9,
+            10,
+            15,
+            16,
+            17,
+            18,
+            46,
+            47,
+            48,
+            52,
+            55,
+            56,
+            57
+          ],
+          "uncoveredLines": [
+            13,
+            21,
+            22,
+            23,
+            25,
+            26,
+            27,
+            28,
+            31,
+            32,
+            33,
+            36,
+            37,
+            38,
+            41,
+            42,
+            43,
+            49
+          ]
+        },
+        "TestMethodName": "testComplexCondition",
+        "NumLinesCovered": 16,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbZQAT",
+          "Name": "SetCondition"
+        },
+        "NumLinesUncovered": 18
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVYUA2",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            11,
+            12,
+            15,
+            16,
+            17,
+            18,
+            25,
+            26,
+            27,
+            35,
+            36,
+            37,
+            50,
+            51,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            62,
+            63,
+            65,
+            68,
+            72,
+            75,
+            77,
+            80,
+            81,
+            87,
+            88
+          ],
+          "uncoveredLines": [
+            21,
+            22,
+            30,
+            31,
+            32,
+            40,
+            41,
+            42,
+            45,
+            46,
+            47,
+            52,
+            66,
+            69,
+            82,
+            89
+          ]
+        },
+        "TestMethodName": "testComplexCondition",
+        "NumLinesCovered": 31,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZSQA1",
+          "Name": "SoqlBuilder"
+        },
+        "NumLinesUncovered": 16
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVYUA2",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            5,
+            6,
+            7,
+            10,
+            11
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "testComplexCondition",
+        "NumLinesCovered": 6,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpUSQA1",
+          "Name": "StringBuilder"
+        },
+        "NumLinesUncovered": 0
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVYUA2",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            2
+          ],
+          "uncoveredLines": [
+            4,
+            8,
+            9
+          ]
+        },
+        "TestMethodName": "testComplexCondition",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZNQA1",
+          "Name": "Condition"
+        },
+        "NumLinesUncovered": 3
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVYUA2",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            8,
+            9,
+            10,
+            13,
+            16,
+            17,
+            33,
+            34,
+            37,
+            38,
+            42,
+            43,
+            44,
+            47
+          ],
+          "uncoveredLines": [
+            20,
+            21,
+            22,
+            25,
+            26,
+            27,
+            29,
+            30,
+            39
+          ]
+        },
+        "TestMethodName": "testComplexCondition",
+        "NumLinesCovered": 14,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsboQAD",
+          "Name": "GroupCondition"
+        },
+        "NumLinesUncovered": 9
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVZUA2",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            4
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "testComplexConditionRealDbQuery",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZXQA1",
+          "Name": "Collections"
+        },
+        "NumLinesUncovered": 0
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVZUA2",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            9,
+            10,
+            11,
+            25,
+            26,
+            29,
+            30,
+            31,
+            55,
+            56,
+            59
+          ],
+          "uncoveredLines": [
+            14,
+            27,
+            34,
+            35,
+            36,
+            39,
+            40,
+            41,
+            44,
+            45,
+            46,
+            57
+          ]
+        },
+        "TestMethodName": "testComplexConditionRealDbQuery",
+        "NumLinesCovered": 11,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbjQAD",
+          "Name": "FieldCondition"
+        },
+        "NumLinesUncovered": 12
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVZUA2",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            6,
+            7
+          ],
+          "uncoveredLines": [
+            2,
+            3,
+            10,
+            11,
+            12,
+            13,
+            16
+          ]
+        },
+        "TestMethodName": "testComplexConditionRealDbQuery",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbUQAT",
+          "Name": "Lists"
+        },
+        "NumLinesUncovered": 7
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVZUA2",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            2
+          ],
+          "uncoveredLines": [
+            4,
+            8,
+            9
+          ]
+        },
+        "TestMethodName": "testComplexConditionRealDbQuery",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZNQA1",
+          "Name": "Condition"
+        },
+        "NumLinesUncovered": 3
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVZUA2",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            11,
+            12,
+            15,
+            16,
+            17,
+            18,
+            25,
+            26,
+            27,
+            35,
+            36,
+            37,
+            50,
+            51,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            62,
+            63,
+            65,
+            68,
+            72,
+            75,
+            77,
+            80,
+            81,
+            87,
+            88
+          ],
+          "uncoveredLines": [
+            21,
+            22,
+            30,
+            31,
+            32,
+            40,
+            41,
+            42,
+            45,
+            46,
+            47,
+            52,
+            66,
+            69,
+            82,
+            89
+          ]
+        },
+        "TestMethodName": "testComplexConditionRealDbQuery",
+        "NumLinesCovered": 31,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZSQA1",
+          "Name": "SoqlBuilder"
+        },
+        "NumLinesUncovered": 16
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVZUA2",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            8,
+            9,
+            10,
+            13,
+            16,
+            17,
+            33,
+            34,
+            37,
+            38,
+            42,
+            43,
+            44,
+            47
+          ],
+          "uncoveredLines": [
+            20,
+            21,
+            22,
+            25,
+            26,
+            27,
+            29,
+            30,
+            39
+          ]
+        },
+        "TestMethodName": "testComplexConditionRealDbQuery",
+        "NumLinesCovered": 14,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsboQAD",
+          "Name": "GroupCondition"
+        },
+        "NumLinesUncovered": 9
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVZUA2",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            5,
+            6,
+            7,
+            10,
+            11
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "testComplexConditionRealDbQuery",
+        "NumLinesCovered": 6,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpUSQA1",
+          "Name": "StringBuilder"
+        },
+        "NumLinesUncovered": 0
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVZUA2",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            4,
+            7,
+            8,
+            9,
+            10,
+            15,
+            16,
+            17,
+            18,
+            46,
+            47,
+            48,
+            52,
+            55,
+            56,
+            57
+          ],
+          "uncoveredLines": [
+            13,
+            21,
+            22,
+            23,
+            25,
+            26,
+            27,
+            28,
+            31,
+            32,
+            33,
+            36,
+            37,
+            38,
+            41,
+            42,
+            43,
+            49
+          ]
+        },
+        "TestMethodName": "testComplexConditionRealDbQuery",
+        "NumLinesCovered": 16,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbZQAT",
+          "Name": "SetCondition"
+        },
+        "NumLinesUncovered": 18
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVaUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            16,
+            33,
+            37
+          ],
+          "uncoveredLines": [
+            8,
+            9,
+            10,
+            13,
+            17,
+            20,
+            21,
+            22,
+            25,
+            26,
+            27,
+            29,
+            30,
+            34,
+            38,
+            39,
+            42,
+            43,
+            44,
+            47
+          ]
+        },
+        "TestMethodName": "testCondition",
+        "NumLinesCovered": 3,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsboQAD",
+          "Name": "GroupCondition"
+        },
+        "NumLinesUncovered": 20
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVaUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            4
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "testCondition",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZXQA1",
+          "Name": "Collections"
+        },
+        "NumLinesUncovered": 0
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVaUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            6
+          ],
+          "uncoveredLines": [
+            2,
+            3,
+            7,
+            10,
+            11,
+            12,
+            13,
+            16
+          ]
+        },
+        "TestMethodName": "testCondition",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbUQAT",
+          "Name": "Lists"
+        },
+        "NumLinesUncovered": 8
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVaUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            15,
+            46,
+            55
+          ],
+          "uncoveredLines": [
+            4,
+            7,
+            8,
+            9,
+            10,
+            13,
+            16,
+            17,
+            18,
+            21,
+            22,
+            23,
+            25,
+            26,
+            27,
+            28,
+            31,
+            32,
+            33,
+            36,
+            37,
+            38,
+            41,
+            42,
+            43,
+            47,
+            48,
+            49,
+            52,
+            56,
+            57
+          ]
+        },
+        "TestMethodName": "testCondition",
+        "NumLinesCovered": 3,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbZQAT",
+          "Name": "SetCondition"
+        },
+        "NumLinesUncovered": 31
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVaUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            11,
+            12,
+            15,
+            16,
+            17,
+            18,
+            25,
+            26,
+            27,
+            35,
+            36,
+            37,
+            50,
+            51,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            62,
+            63,
+            65,
+            68,
+            72,
+            75,
+            77,
+            80,
+            81,
+            87,
+            88
+          ],
+          "uncoveredLines": [
+            21,
+            22,
+            30,
+            31,
+            32,
+            40,
+            41,
+            42,
+            45,
+            46,
+            47,
+            52,
+            66,
+            69,
+            82,
+            89
+          ]
+        },
+        "TestMethodName": "testCondition",
+        "NumLinesCovered": 31,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZSQA1",
+          "Name": "SoqlBuilder"
+        },
+        "NumLinesUncovered": 16
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVaUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            2
+          ],
+          "uncoveredLines": [
+            4,
+            8,
+            9
+          ]
+        },
+        "TestMethodName": "testCondition",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZNQA1",
+          "Name": "Condition"
+        },
+        "NumLinesUncovered": 3
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVaUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            5,
+            6,
+            7,
+            10,
+            11
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "testCondition",
+        "NumLinesCovered": 6,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpUSQA1",
+          "Name": "StringBuilder"
+        },
+        "NumLinesUncovered": 0
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVaUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            9,
+            10,
+            11,
+            25,
+            26,
+            29,
+            30,
+            31,
+            55,
+            56,
+            59
+          ],
+          "uncoveredLines": [
+            14,
+            27,
+            34,
+            35,
+            36,
+            39,
+            40,
+            41,
+            44,
+            45,
+            46,
+            57
+          ]
+        },
+        "TestMethodName": "testCondition",
+        "NumLinesCovered": 11,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbjQAD",
+          "Name": "FieldCondition"
+        },
+        "NumLinesUncovered": 12
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVbUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            2
+          ],
+          "uncoveredLines": [
+            4,
+            8,
+            9
+          ]
+        },
+        "TestMethodName": "testEmptyFields",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZNQA1",
+          "Name": "Condition"
+        },
+        "NumLinesUncovered": 3
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVbUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            5,
+            10
+          ],
+          "uncoveredLines": [
+            3,
+            6,
+            7,
+            11
+          ]
+        },
+        "TestMethodName": "testEmptyFields",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpUSQA1",
+          "Name": "StringBuilder"
+        },
+        "NumLinesUncovered": 4
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVbUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            16,
+            33,
+            37
+          ],
+          "uncoveredLines": [
+            8,
+            9,
+            10,
+            13,
+            17,
+            20,
+            21,
+            22,
+            25,
+            26,
+            27,
+            29,
+            30,
+            34,
+            38,
+            39,
+            42,
+            43,
+            44,
+            47
+          ]
+        },
+        "TestMethodName": "testEmptyFields",
+        "NumLinesCovered": 3,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsboQAD",
+          "Name": "GroupCondition"
+        },
+        "NumLinesUncovered": 20
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVbUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            4
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "testEmptyFields",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZXQA1",
+          "Name": "Collections"
+        },
+        "NumLinesUncovered": 0
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVbUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            25,
+            55
+          ],
+          "uncoveredLines": [
+            9,
+            10,
+            11,
+            14,
+            26,
+            27,
+            29,
+            30,
+            31,
+            34,
+            35,
+            36,
+            39,
+            40,
+            41,
+            44,
+            45,
+            46,
+            56,
+            57,
+            59
+          ]
+        },
+        "TestMethodName": "testEmptyFields",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbjQAD",
+          "Name": "FieldCondition"
+        },
+        "NumLinesUncovered": 21
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVbUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            11,
+            12,
+            15,
+            25,
+            26,
+            27,
+            35,
+            50,
+            51,
+            52,
+            75,
+            87
+          ],
+          "uncoveredLines": [
+            16,
+            17,
+            18,
+            21,
+            22,
+            30,
+            31,
+            32,
+            36,
+            37,
+            40,
+            41,
+            42,
+            45,
+            46,
+            47,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            62,
+            63,
+            65,
+            66,
+            68,
+            69,
+            72,
+            77,
+            80,
+            81,
+            82,
+            88,
+            89
+          ]
+        },
+        "TestMethodName": "testEmptyFields",
+        "NumLinesCovered": 12,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZSQA1",
+          "Name": "SoqlBuilder"
+        },
+        "NumLinesUncovered": 35
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVbUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            6
+          ],
+          "uncoveredLines": [
+            2,
+            3,
+            7,
+            10,
+            11,
+            12,
+            13,
+            16
+          ]
+        },
+        "TestMethodName": "testEmptyFields",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbUQAT",
+          "Name": "Lists"
+        },
+        "NumLinesUncovered": 8
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVbUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            15,
+            46,
+            55
+          ],
+          "uncoveredLines": [
+            4,
+            7,
+            8,
+            9,
+            10,
+            13,
+            16,
+            17,
+            18,
+            21,
+            22,
+            23,
+            25,
+            26,
+            27,
+            28,
+            31,
+            32,
+            33,
+            36,
+            37,
+            38,
+            41,
+            42,
+            43,
+            47,
+            48,
+            49,
+            52,
+            56,
+            57
+          ]
+        },
+        "TestMethodName": "testEmptyFields",
+        "NumLinesCovered": 3,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbZQAT",
+          "Name": "SetCondition"
+        },
+        "NumLinesUncovered": 31
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVcUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            5,
+            10
+          ],
+          "uncoveredLines": [
+            3,
+            6,
+            7,
+            11
+          ]
+        },
+        "TestMethodName": "testGroupConditionAnd",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpUSQA1",
+          "Name": "StringBuilder"
+        },
+        "NumLinesUncovered": 4
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVcUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            6
+          ],
+          "uncoveredLines": [
+            2,
+            3,
+            7,
+            10,
+            11,
+            12,
+            13,
+            16
+          ]
+        },
+        "TestMethodName": "testGroupConditionAnd",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbUQAT",
+          "Name": "Lists"
+        },
+        "NumLinesUncovered": 8
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVcUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            8,
+            9,
+            10,
+            13,
+            16,
+            17,
+            33,
+            34,
+            37,
+            38,
+            42,
+            43,
+            44,
+            47
+          ],
+          "uncoveredLines": [
+            20,
+            21,
+            22,
+            25,
+            26,
+            27,
+            29,
+            30,
+            39
+          ]
+        },
+        "TestMethodName": "testGroupConditionAnd",
+        "NumLinesCovered": 14,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsboQAD",
+          "Name": "GroupCondition"
+        },
+        "NumLinesUncovered": 9
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVcUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3
+          ],
+          "uncoveredLines": [
+            4
+          ]
+        },
+        "TestMethodName": "testGroupConditionAnd",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZXQA1",
+          "Name": "Collections"
+        },
+        "NumLinesUncovered": 1
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVcUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            9,
+            10,
+            11,
+            25,
+            26,
+            29,
+            30,
+            31,
+            55,
+            56,
+            59
+          ],
+          "uncoveredLines": [
+            14,
+            27,
+            34,
+            35,
+            36,
+            39,
+            40,
+            41,
+            44,
+            45,
+            46,
+            57
+          ]
+        },
+        "TestMethodName": "testGroupConditionAnd",
+        "NumLinesCovered": 11,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbjQAD",
+          "Name": "FieldCondition"
+        },
+        "NumLinesUncovered": 12
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVcUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            15,
+            46,
+            55
+          ],
+          "uncoveredLines": [
+            4,
+            7,
+            8,
+            9,
+            10,
+            13,
+            16,
+            17,
+            18,
+            21,
+            22,
+            23,
+            25,
+            26,
+            27,
+            28,
+            31,
+            32,
+            33,
+            36,
+            37,
+            38,
+            41,
+            42,
+            43,
+            47,
+            48,
+            49,
+            52,
+            56,
+            57
+          ]
+        },
+        "TestMethodName": "testGroupConditionAnd",
+        "NumLinesCovered": 3,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbZQAT",
+          "Name": "SetCondition"
+        },
+        "NumLinesUncovered": 31
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVcUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            11,
+            15,
+            25,
+            35,
+            50,
+            75,
+            87
+          ],
+          "uncoveredLines": [
+            12,
+            16,
+            17,
+            18,
+            21,
+            22,
+            26,
+            27,
+            30,
+            31,
+            32,
+            36,
+            37,
+            40,
+            41,
+            42,
+            45,
+            46,
+            47,
+            51,
+            52,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            62,
+            63,
+            65,
+            66,
+            68,
+            69,
+            72,
+            77,
+            80,
+            81,
+            82,
+            88,
+            89
+          ]
+        },
+        "TestMethodName": "testGroupConditionAnd",
+        "NumLinesCovered": 7,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZSQA1",
+          "Name": "SoqlBuilder"
+        },
+        "NumLinesUncovered": 40
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVcUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            2
+          ],
+          "uncoveredLines": [
+            4,
+            8,
+            9
+          ]
+        },
+        "TestMethodName": "testGroupConditionAnd",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZNQA1",
+          "Name": "Condition"
+        },
+        "NumLinesUncovered": 3
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVdUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            8,
+            9,
+            10,
+            13,
+            16,
+            17,
+            33,
+            34,
+            37,
+            38,
+            42,
+            43,
+            44,
+            47
+          ],
+          "uncoveredLines": [
+            20,
+            21,
+            22,
+            25,
+            26,
+            27,
+            29,
+            30,
+            39
+          ]
+        },
+        "TestMethodName": "testGroupConditionOr",
+        "NumLinesCovered": 14,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsboQAD",
+          "Name": "GroupCondition"
+        },
+        "NumLinesUncovered": 9
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVdUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            2
+          ],
+          "uncoveredLines": [
+            4,
+            8,
+            9
+          ]
+        },
+        "TestMethodName": "testGroupConditionOr",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZNQA1",
+          "Name": "Condition"
+        },
+        "NumLinesUncovered": 3
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVdUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            5,
+            10
+          ],
+          "uncoveredLines": [
+            3,
+            6,
+            7,
+            11
+          ]
+        },
+        "TestMethodName": "testGroupConditionOr",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpUSQA1",
+          "Name": "StringBuilder"
+        },
+        "NumLinesUncovered": 4
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVdUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3
+          ],
+          "uncoveredLines": [
+            4
+          ]
+        },
+        "TestMethodName": "testGroupConditionOr",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZXQA1",
+          "Name": "Collections"
+        },
+        "NumLinesUncovered": 1
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVdUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            9,
+            10,
+            11,
+            25,
+            26,
+            29,
+            30,
+            31,
+            55,
+            56,
+            59
+          ],
+          "uncoveredLines": [
+            14,
+            27,
+            34,
+            35,
+            36,
+            39,
+            40,
+            41,
+            44,
+            45,
+            46,
+            57
+          ]
+        },
+        "TestMethodName": "testGroupConditionOr",
+        "NumLinesCovered": 11,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbjQAD",
+          "Name": "FieldCondition"
+        },
+        "NumLinesUncovered": 12
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVdUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            6
+          ],
+          "uncoveredLines": [
+            2,
+            3,
+            7,
+            10,
+            11,
+            12,
+            13,
+            16
+          ]
+        },
+        "TestMethodName": "testGroupConditionOr",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbUQAT",
+          "Name": "Lists"
+        },
+        "NumLinesUncovered": 8
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVdUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            15,
+            46,
+            55
+          ],
+          "uncoveredLines": [
+            4,
+            7,
+            8,
+            9,
+            10,
+            13,
+            16,
+            17,
+            18,
+            21,
+            22,
+            23,
+            25,
+            26,
+            27,
+            28,
+            31,
+            32,
+            33,
+            36,
+            37,
+            38,
+            41,
+            42,
+            43,
+            47,
+            48,
+            49,
+            52,
+            56,
+            57
+          ]
+        },
+        "TestMethodName": "testGroupConditionOr",
+        "NumLinesCovered": 3,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbZQAT",
+          "Name": "SetCondition"
+        },
+        "NumLinesUncovered": 31
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVdUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            11,
+            15,
+            25,
+            35,
+            50,
+            75,
+            87
+          ],
+          "uncoveredLines": [
+            12,
+            16,
+            17,
+            18,
+            21,
+            22,
+            26,
+            27,
+            30,
+            31,
+            32,
+            36,
+            37,
+            40,
+            41,
+            42,
+            45,
+            46,
+            47,
+            51,
+            52,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            62,
+            63,
+            65,
+            66,
+            68,
+            69,
+            72,
+            77,
+            80,
+            81,
+            82,
+            88,
+            89
+          ]
+        },
+        "TestMethodName": "testGroupConditionOr",
+        "NumLinesCovered": 7,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZSQA1",
+          "Name": "SoqlBuilder"
+        },
+        "NumLinesUncovered": 40
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVeUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            4
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "testInvalidField",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZXQA1",
+          "Name": "Collections"
+        },
+        "NumLinesUncovered": 0
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVeUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            25,
+            55
+          ],
+          "uncoveredLines": [
+            9,
+            10,
+            11,
+            14,
+            26,
+            27,
+            29,
+            30,
+            31,
+            34,
+            35,
+            36,
+            39,
+            40,
+            41,
+            44,
+            45,
+            46,
+            56,
+            57,
+            59
+          ]
+        },
+        "TestMethodName": "testInvalidField",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbjQAD",
+          "Name": "FieldCondition"
+        },
+        "NumLinesUncovered": 21
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVeUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            5,
+            10
+          ],
+          "uncoveredLines": [
+            3,
+            6,
+            7,
+            11
+          ]
+        },
+        "TestMethodName": "testInvalidField",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpUSQA1",
+          "Name": "StringBuilder"
+        },
+        "NumLinesUncovered": 4
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVeUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            6
+          ],
+          "uncoveredLines": [
+            2,
+            3,
+            7,
+            10,
+            11,
+            12,
+            13,
+            16
+          ]
+        },
+        "TestMethodName": "testInvalidField",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbUQAT",
+          "Name": "Lists"
+        },
+        "NumLinesUncovered": 8
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVeUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            11,
+            12,
+            15,
+            16,
+            17,
+            18,
+            25,
+            26,
+            27,
+            35,
+            50,
+            51,
+            55,
+            75,
+            77,
+            80,
+            81,
+            82,
+            87,
+            88
+          ],
+          "uncoveredLines": [
+            21,
+            22,
+            30,
+            31,
+            32,
+            36,
+            37,
+            40,
+            41,
+            42,
+            45,
+            46,
+            47,
+            52,
+            56,
+            57,
+            58,
+            59,
+            60,
+            62,
+            63,
+            65,
+            66,
+            68,
+            69,
+            72,
+            89
+          ]
+        },
+        "TestMethodName": "testInvalidField",
+        "NumLinesCovered": 20,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZSQA1",
+          "Name": "SoqlBuilder"
+        },
+        "NumLinesUncovered": 27
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVeUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            2
+          ],
+          "uncoveredLines": [
+            4,
+            8,
+            9
+          ]
+        },
+        "TestMethodName": "testInvalidField",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZNQA1",
+          "Name": "Condition"
+        },
+        "NumLinesUncovered": 3
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVeUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            16,
+            33,
+            37
+          ],
+          "uncoveredLines": [
+            8,
+            9,
+            10,
+            13,
+            17,
+            20,
+            21,
+            22,
+            25,
+            26,
+            27,
+            29,
+            30,
+            34,
+            38,
+            39,
+            42,
+            43,
+            44,
+            47
+          ]
+        },
+        "TestMethodName": "testInvalidField",
+        "NumLinesCovered": 3,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsboQAD",
+          "Name": "GroupCondition"
+        },
+        "NumLinesUncovered": 20
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVeUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            15,
+            46,
+            55
+          ],
+          "uncoveredLines": [
+            4,
+            7,
+            8,
+            9,
+            10,
+            13,
+            16,
+            17,
+            18,
+            21,
+            22,
+            23,
+            25,
+            26,
+            27,
+            28,
+            31,
+            32,
+            33,
+            36,
+            37,
+            38,
+            41,
+            42,
+            43,
+            47,
+            48,
+            49,
+            52,
+            56,
+            57
+          ]
+        },
+        "TestMethodName": "testInvalidField",
+        "NumLinesCovered": 3,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbZQAT",
+          "Name": "SetCondition"
+        },
+        "NumLinesUncovered": 31
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVfUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            4
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "testInvalidSObjectType",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZXQA1",
+          "Name": "Collections"
+        },
+        "NumLinesUncovered": 0
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVfUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            6
+          ],
+          "uncoveredLines": [
+            2,
+            3,
+            7,
+            10,
+            11,
+            12,
+            13,
+            16
+          ]
+        },
+        "TestMethodName": "testInvalidSObjectType",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbUQAT",
+          "Name": "Lists"
+        },
+        "NumLinesUncovered": 8
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVfUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            11,
+            12,
+            15,
+            16,
+            17,
+            18,
+            25,
+            30,
+            31,
+            35,
+            50,
+            75,
+            87,
+            88
+          ],
+          "uncoveredLines": [
+            21,
+            22,
+            26,
+            27,
+            32,
+            36,
+            37,
+            40,
+            41,
+            42,
+            45,
+            46,
+            47,
+            51,
+            52,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            62,
+            63,
+            65,
+            66,
+            68,
+            69,
+            72,
+            77,
+            80,
+            81,
+            82,
+            89
+          ]
+        },
+        "TestMethodName": "testInvalidSObjectType",
+        "NumLinesCovered": 14,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZSQA1",
+          "Name": "SoqlBuilder"
+        },
+        "NumLinesUncovered": 33
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVfUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            5,
+            10
+          ],
+          "uncoveredLines": [
+            3,
+            6,
+            7,
+            11
+          ]
+        },
+        "TestMethodName": "testInvalidSObjectType",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpUSQA1",
+          "Name": "StringBuilder"
+        },
+        "NumLinesUncovered": 4
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVfUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            2
+          ],
+          "uncoveredLines": [
+            4,
+            8,
+            9
+          ]
+        },
+        "TestMethodName": "testInvalidSObjectType",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZNQA1",
+          "Name": "Condition"
+        },
+        "NumLinesUncovered": 3
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVfUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            16,
+            33,
+            37
+          ],
+          "uncoveredLines": [
+            8,
+            9,
+            10,
+            13,
+            17,
+            20,
+            21,
+            22,
+            25,
+            26,
+            27,
+            29,
+            30,
+            34,
+            38,
+            39,
+            42,
+            43,
+            44,
+            47
+          ]
+        },
+        "TestMethodName": "testInvalidSObjectType",
+        "NumLinesCovered": 3,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsboQAD",
+          "Name": "GroupCondition"
+        },
+        "NumLinesUncovered": 20
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVfUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            25,
+            55
+          ],
+          "uncoveredLines": [
+            9,
+            10,
+            11,
+            14,
+            26,
+            27,
+            29,
+            30,
+            31,
+            34,
+            35,
+            36,
+            39,
+            40,
+            41,
+            44,
+            45,
+            46,
+            56,
+            57,
+            59
+          ]
+        },
+        "TestMethodName": "testInvalidSObjectType",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbjQAD",
+          "Name": "FieldCondition"
+        },
+        "NumLinesUncovered": 21
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVfUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            15,
+            46,
+            55
+          ],
+          "uncoveredLines": [
+            4,
+            7,
+            8,
+            9,
+            10,
+            13,
+            16,
+            17,
+            18,
+            21,
+            22,
+            23,
+            25,
+            26,
+            27,
+            28,
+            31,
+            32,
+            33,
+            36,
+            37,
+            38,
+            41,
+            42,
+            43,
+            47,
+            48,
+            49,
+            52,
+            56,
+            57
+          ]
+        },
+        "TestMethodName": "testInvalidSObjectType",
+        "NumLinesCovered": 3,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbZQAT",
+          "Name": "SetCondition"
+        },
+        "NumLinesUncovered": 31
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVgUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            5,
+            6,
+            7,
+            10,
+            11
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "testLimitRecords",
+        "NumLinesCovered": 6,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpUSQA1",
+          "Name": "StringBuilder"
+        },
+        "NumLinesUncovered": 0
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVgUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            6
+          ],
+          "uncoveredLines": [
+            2,
+            3,
+            7,
+            10,
+            11,
+            12,
+            13,
+            16
+          ]
+        },
+        "TestMethodName": "testLimitRecords",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbUQAT",
+          "Name": "Lists"
+        },
+        "NumLinesUncovered": 8
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVgUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            25,
+            55
+          ],
+          "uncoveredLines": [
+            9,
+            10,
+            11,
+            14,
+            26,
+            27,
+            29,
+            30,
+            31,
+            34,
+            35,
+            36,
+            39,
+            40,
+            41,
+            44,
+            45,
+            46,
+            56,
+            57,
+            59
+          ]
+        },
+        "TestMethodName": "testLimitRecords",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbjQAD",
+          "Name": "FieldCondition"
+        },
+        "NumLinesUncovered": 21
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVgUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            16,
+            33,
+            37
+          ],
+          "uncoveredLines": [
+            8,
+            9,
+            10,
+            13,
+            17,
+            20,
+            21,
+            22,
+            25,
+            26,
+            27,
+            29,
+            30,
+            34,
+            38,
+            39,
+            42,
+            43,
+            44,
+            47
+          ]
+        },
+        "TestMethodName": "testLimitRecords",
+        "NumLinesCovered": 3,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsboQAD",
+          "Name": "GroupCondition"
+        },
+        "NumLinesUncovered": 20
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVgUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            15,
+            46,
+            55
+          ],
+          "uncoveredLines": [
+            4,
+            7,
+            8,
+            9,
+            10,
+            13,
+            16,
+            17,
+            18,
+            21,
+            22,
+            23,
+            25,
+            26,
+            27,
+            28,
+            31,
+            32,
+            33,
+            36,
+            37,
+            38,
+            41,
+            42,
+            43,
+            47,
+            48,
+            49,
+            52,
+            56,
+            57
+          ]
+        },
+        "TestMethodName": "testLimitRecords",
+        "NumLinesCovered": 3,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbZQAT",
+          "Name": "SetCondition"
+        },
+        "NumLinesUncovered": 31
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVgUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            4
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "testLimitRecords",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZXQA1",
+          "Name": "Collections"
+        },
+        "NumLinesUncovered": 0
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVgUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            2
+          ],
+          "uncoveredLines": [
+            4,
+            8,
+            9
+          ]
+        },
+        "TestMethodName": "testLimitRecords",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZNQA1",
+          "Name": "Condition"
+        },
+        "NumLinesUncovered": 3
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVgUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            11,
+            12,
+            15,
+            16,
+            17,
+            18,
+            25,
+            26,
+            27,
+            30,
+            35,
+            45,
+            46,
+            47,
+            50,
+            51,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            62,
+            65,
+            68,
+            69,
+            72,
+            75,
+            77,
+            80,
+            81,
+            87,
+            88
+          ],
+          "uncoveredLines": [
+            21,
+            22,
+            31,
+            32,
+            36,
+            37,
+            40,
+            41,
+            42,
+            52,
+            63,
+            66,
+            82,
+            89
+          ]
+        },
+        "TestMethodName": "testLimitRecords",
+        "NumLinesCovered": 33,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZSQA1",
+          "Name": "SoqlBuilder"
+        },
+        "NumLinesUncovered": 14
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVhUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            4
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "testMissingSObjectType",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZXQA1",
+          "Name": "Collections"
+        },
+        "NumLinesUncovered": 0
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVhUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            6
+          ],
+          "uncoveredLines": [
+            2,
+            3,
+            7,
+            10,
+            11,
+            12,
+            13,
+            16
+          ]
+        },
+        "TestMethodName": "testMissingSObjectType",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbUQAT",
+          "Name": "Lists"
+        },
+        "NumLinesUncovered": 8
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVhUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            25,
+            55
+          ],
+          "uncoveredLines": [
+            9,
+            10,
+            11,
+            14,
+            26,
+            27,
+            29,
+            30,
+            31,
+            34,
+            35,
+            36,
+            39,
+            40,
+            41,
+            44,
+            45,
+            46,
+            56,
+            57,
+            59
+          ]
+        },
+        "TestMethodName": "testMissingSObjectType",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbjQAD",
+          "Name": "FieldCondition"
+        },
+        "NumLinesUncovered": 21
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVhUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            2
+          ],
+          "uncoveredLines": [
+            4,
+            8,
+            9
+          ]
+        },
+        "TestMethodName": "testMissingSObjectType",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZNQA1",
+          "Name": "Condition"
+        },
+        "NumLinesUncovered": 3
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVhUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            16,
+            33,
+            37
+          ],
+          "uncoveredLines": [
+            8,
+            9,
+            10,
+            13,
+            17,
+            20,
+            21,
+            22,
+            25,
+            26,
+            27,
+            29,
+            30,
+            34,
+            38,
+            39,
+            42,
+            43,
+            44,
+            47
+          ]
+        },
+        "TestMethodName": "testMissingSObjectType",
+        "NumLinesCovered": 3,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsboQAD",
+          "Name": "GroupCondition"
+        },
+        "NumLinesUncovered": 20
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVhUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            11,
+            12,
+            15,
+            16,
+            17,
+            18,
+            25,
+            30,
+            35,
+            45,
+            50,
+            51,
+            52,
+            75,
+            87,
+            88
+          ],
+          "uncoveredLines": [
+            21,
+            22,
+            26,
+            27,
+            31,
+            32,
+            36,
+            37,
+            40,
+            41,
+            42,
+            46,
+            47,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            62,
+            63,
+            65,
+            66,
+            68,
+            69,
+            72,
+            77,
+            80,
+            81,
+            82,
+            89
+          ]
+        },
+        "TestMethodName": "testMissingSObjectType",
+        "NumLinesCovered": 16,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZSQA1",
+          "Name": "SoqlBuilder"
+        },
+        "NumLinesUncovered": 31
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVhUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            15,
+            46,
+            55
+          ],
+          "uncoveredLines": [
+            4,
+            7,
+            8,
+            9,
+            10,
+            13,
+            16,
+            17,
+            18,
+            21,
+            22,
+            23,
+            25,
+            26,
+            27,
+            28,
+            31,
+            32,
+            33,
+            36,
+            37,
+            38,
+            41,
+            42,
+            43,
+            47,
+            48,
+            49,
+            52,
+            56,
+            57
+          ]
+        },
+        "TestMethodName": "testMissingSObjectType",
+        "NumLinesCovered": 3,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbZQAT",
+          "Name": "SetCondition"
+        },
+        "NumLinesUncovered": 31
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVhUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            5,
+            10
+          ],
+          "uncoveredLines": [
+            3,
+            6,
+            7,
+            11
+          ]
+        },
+        "TestMethodName": "testMissingSObjectType",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpUSQA1",
+          "Name": "StringBuilder"
+        },
+        "NumLinesUncovered": 4
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNViUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            4
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "testNegativeLimit",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZXQA1",
+          "Name": "Collections"
+        },
+        "NumLinesUncovered": 0
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNViUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            16,
+            33,
+            37
+          ],
+          "uncoveredLines": [
+            8,
+            9,
+            10,
+            13,
+            17,
+            20,
+            21,
+            22,
+            25,
+            26,
+            27,
+            29,
+            30,
+            34,
+            38,
+            39,
+            42,
+            43,
+            44,
+            47
+          ]
+        },
+        "TestMethodName": "testNegativeLimit",
+        "NumLinesCovered": 3,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsboQAD",
+          "Name": "GroupCondition"
+        },
+        "NumLinesUncovered": 20
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNViUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            15,
+            46,
+            55
+          ],
+          "uncoveredLines": [
+            4,
+            7,
+            8,
+            9,
+            10,
+            13,
+            16,
+            17,
+            18,
+            21,
+            22,
+            23,
+            25,
+            26,
+            27,
+            28,
+            31,
+            32,
+            33,
+            36,
+            37,
+            38,
+            41,
+            42,
+            43,
+            47,
+            48,
+            49,
+            52,
+            56,
+            57
+          ]
+        },
+        "TestMethodName": "testNegativeLimit",
+        "NumLinesCovered": 3,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbZQAT",
+          "Name": "SetCondition"
+        },
+        "NumLinesUncovered": 31
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNViUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            5,
+            6,
+            7,
+            10,
+            11
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "testNegativeLimit",
+        "NumLinesCovered": 6,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpUSQA1",
+          "Name": "StringBuilder"
+        },
+        "NumLinesUncovered": 0
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNViUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            2
+          ],
+          "uncoveredLines": [
+            4,
+            8,
+            9
+          ]
+        },
+        "TestMethodName": "testNegativeLimit",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZNQA1",
+          "Name": "Condition"
+        },
+        "NumLinesUncovered": 3
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNViUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            11,
+            12,
+            15,
+            16,
+            17,
+            18,
+            25,
+            26,
+            27,
+            30,
+            35,
+            45,
+            46,
+            47,
+            50,
+            51,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            62,
+            65,
+            68,
+            72,
+            75,
+            77,
+            80,
+            81,
+            87,
+            88
+          ],
+          "uncoveredLines": [
+            21,
+            22,
+            31,
+            32,
+            36,
+            37,
+            40,
+            41,
+            42,
+            52,
+            63,
+            66,
+            69,
+            82,
+            89
+          ]
+        },
+        "TestMethodName": "testNegativeLimit",
+        "NumLinesCovered": 32,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZSQA1",
+          "Name": "SoqlBuilder"
+        },
+        "NumLinesUncovered": 15
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNViUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            6
+          ],
+          "uncoveredLines": [
+            2,
+            3,
+            7,
+            10,
+            11,
+            12,
+            13,
+            16
+          ]
+        },
+        "TestMethodName": "testNegativeLimit",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbUQAT",
+          "Name": "Lists"
+        },
+        "NumLinesUncovered": 8
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNViUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            25,
+            55
+          ],
+          "uncoveredLines": [
+            9,
+            10,
+            11,
+            14,
+            26,
+            27,
+            29,
+            30,
+            31,
+            34,
+            35,
+            36,
+            39,
+            40,
+            41,
+            44,
+            45,
+            46,
+            56,
+            57,
+            59
+          ]
+        },
+        "TestMethodName": "testNegativeLimit",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbjQAD",
+          "Name": "FieldCondition"
+        },
+        "NumLinesUncovered": 21
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVjUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            4
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "testOrderBy",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZXQA1",
+          "Name": "Collections"
+        },
+        "NumLinesUncovered": 0
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVjUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            15,
+            46,
+            55
+          ],
+          "uncoveredLines": [
+            4,
+            7,
+            8,
+            9,
+            10,
+            13,
+            16,
+            17,
+            18,
+            21,
+            22,
+            23,
+            25,
+            26,
+            27,
+            28,
+            31,
+            32,
+            33,
+            36,
+            37,
+            38,
+            41,
+            42,
+            43,
+            47,
+            48,
+            49,
+            52,
+            56,
+            57
+          ]
+        },
+        "TestMethodName": "testOrderBy",
+        "NumLinesCovered": 3,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbZQAT",
+          "Name": "SetCondition"
+        },
+        "NumLinesUncovered": 31
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVjUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            2
+          ],
+          "uncoveredLines": [
+            4,
+            8,
+            9
+          ]
+        },
+        "TestMethodName": "testOrderBy",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZNQA1",
+          "Name": "Condition"
+        },
+        "NumLinesUncovered": 3
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVjUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            11,
+            12,
+            15,
+            16,
+            17,
+            18,
+            25,
+            26,
+            27,
+            30,
+            35,
+            40,
+            41,
+            42,
+            45,
+            50,
+            51,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            62,
+            65,
+            66,
+            68,
+            72,
+            75,
+            77,
+            80,
+            81,
+            87,
+            88
+          ],
+          "uncoveredLines": [
+            21,
+            22,
+            31,
+            32,
+            36,
+            37,
+            46,
+            47,
+            52,
+            63,
+            69,
+            82,
+            89
+          ]
+        },
+        "TestMethodName": "testOrderBy",
+        "NumLinesCovered": 34,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpZSQA1",
+          "Name": "SoqlBuilder"
+        },
+        "NumLinesUncovered": 13
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVjUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            16,
+            33,
+            37
+          ],
+          "uncoveredLines": [
+            8,
+            9,
+            10,
+            13,
+            17,
+            20,
+            21,
+            22,
+            25,
+            26,
+            27,
+            29,
+            30,
+            34,
+            38,
+            39,
+            42,
+            43,
+            44,
+            47
+          ]
+        },
+        "TestMethodName": "testOrderBy",
+        "NumLinesCovered": 3,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsboQAD",
+          "Name": "GroupCondition"
+        },
+        "NumLinesUncovered": 20
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVjUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            5,
+            6,
+            7,
+            10,
+            11
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "testOrderBy",
+        "NumLinesCovered": 6,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpUSQA1",
+          "Name": "StringBuilder"
+        },
+        "NumLinesUncovered": 0
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVjUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            6
+          ],
+          "uncoveredLines": [
+            2,
+            3,
+            7,
+            10,
+            11,
+            12,
+            13,
+            16
+          ]
+        },
+        "TestMethodName": "testOrderBy",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbUQAT",
+          "Name": "Lists"
+        },
+        "NumLinesUncovered": 8
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVjUAM",
+          "Name": "SoqlBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            25,
+            55
+          ],
+          "uncoveredLines": [
+            9,
+            10,
+            11,
+            14,
+            26,
+            27,
+            29,
+            30,
+            31,
+            34,
+            35,
+            36,
+            39,
+            40,
+            41,
+            44,
+            45,
+            46,
+            56,
+            57,
+            59
+          ]
+        },
+        "TestMethodName": "testOrderBy",
+        "NumLinesCovered": 2,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYsbjQAD",
+          "Name": "FieldCondition"
+        },
+        "NumLinesUncovered": 21
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVsUAM",
+          "Name": "LoggerTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            2
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "testLogInfo",
+        "NumLinesCovered": 1,
+        "ApexClassOrTrigger": {
+          "Id": "01q7R000000pJdsQAE",
+          "Name": "LogEventTrigger"
+        },
+        "NumLinesUncovered": 0
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVsUAM",
+          "Name": "LoggerTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            15,
+            16
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "testLogInfo",
+        "NumLinesCovered": 12,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BXtPOQA1",
+          "Name": "LogEventTriggerHandler"
+        },
+        "NumLinesUncovered": 0
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVsUAM",
+          "Name": "LoggerTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            4,
+            6,
+            7,
+            8,
+            10,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "uncoveredLines": [
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            23,
+            37,
+            41,
+            45
+          ]
+        },
+        "TestMethodName": "testLogInfo",
+        "NumLinesCovered": 13,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BXjoAQAT",
+          "Name": "Logger"
+        },
+        "NumLinesUncovered": 13
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNW7UAM",
+          "Name": "ShapeFactoryTest"
+        },
+        "Coverage": {
+          "coveredLines": [],
+          "uncoveredLines": [
+            2
+          ]
+        },
+        "TestMethodName": "testGetShape",
+        "NumLinesCovered": 0,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BY069QAD",
+          "Name": "Circle"
+        },
+        "NumLinesUncovered": 1
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNW7UAM",
+          "Name": "ShapeFactoryTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            2,
+            3,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            13
+          ],
+          "uncoveredLines": [
+            4
+          ]
+        },
+        "TestMethodName": "testGetShape",
+        "NumLinesCovered": 9,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BY064QAD",
+          "Name": "ShapeFactory"
+        },
+        "NumLinesUncovered": 1
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNW7UAM",
+          "Name": "ShapeFactoryTest"
+        },
+        "Coverage": {
+          "coveredLines": [],
+          "uncoveredLines": [
+            2
+          ]
+        },
+        "TestMethodName": "testGetShape",
+        "NumLinesCovered": 0,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BY06JQAT",
+          "Name": "Square"
+        },
+        "NumLinesUncovered": 1
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNW7UAM",
+          "Name": "ShapeFactoryTest"
+        },
+        "Coverage": {
+          "coveredLines": [],
+          "uncoveredLines": [
+            2
+          ]
+        },
+        "TestMethodName": "testGetShape",
+        "NumLinesCovered": 0,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BY06EQAT",
+          "Name": "Rectangle"
+        },
+        "NumLinesUncovered": 1
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVxUAM",
+          "Name": "ConfigurationManagerTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            5,
+            7,
+            8,
+            9,
+            11,
+            14,
+            15
+          ],
+          "uncoveredLines": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            25,
+            26,
+            27,
+            28
+          ]
+        },
+        "TestMethodName": "getConfigurationByNameTest",
+        "NumLinesCovered": 7,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BXymTQAT",
+          "Name": "ConfigurationManager"
+        },
+        "NumLinesUncovered": 9
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVyUAM",
+          "Name": "ConfigurationManagerTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            5,
+            7,
+            8,
+            9,
+            11,
+            14
+          ],
+          "uncoveredLines": [
+            15,
+            18,
+            19,
+            20,
+            21,
+            22,
+            25,
+            26,
+            27,
+            28
+          ]
+        },
+        "TestMethodName": "getInstanceTest",
+        "NumLinesCovered": 6,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BXymTQAT",
+          "Name": "ConfigurationManager"
+        },
+        "NumLinesUncovered": 10
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNVzUAM",
+          "Name": "ConfigurationManagerTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            5,
+            7,
+            8,
+            9,
+            11,
+            14,
+            15,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "uncoveredLines": [
+            25,
+            26,
+            27,
+            28
+          ]
+        },
+        "TestMethodName": "updateConfigurationValueTest",
+        "NumLinesCovered": 12,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BXymTQAT",
+          "Name": "ConfigurationManager"
+        },
+        "NumLinesUncovered": 4
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNW2UAM",
+          "Name": "StringBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            5,
+            6,
+            7,
+            10,
+            11
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "testAppendAndToString",
+        "NumLinesCovered": 6,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpUSQA1",
+          "Name": "StringBuilder"
+        },
+        "NumLinesUncovered": 0
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNW3UAM",
+          "Name": "StringBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            5,
+            6,
+            7,
+            10,
+            11
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "testAppendWithNull",
+        "NumLinesCovered": 6,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpUSQA1",
+          "Name": "StringBuilder"
+        },
+        "NumLinesUncovered": 0
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNW4UAM",
+          "Name": "StringBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            5,
+            10,
+            11
+          ],
+          "uncoveredLines": [
+            6,
+            7
+          ]
+        },
+        "TestMethodName": "testEmptyStringBuilder",
+        "NumLinesCovered": 4,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpUSQA1",
+          "Name": "StringBuilder"
+        },
+        "NumLinesUncovered": 2
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNW5UAM",
+          "Name": "StringBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            5,
+            6,
+            7,
+            10,
+            11
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "testMultipleAppends",
+        "NumLinesCovered": 6,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpUSQA1",
+          "Name": "StringBuilder"
+        },
+        "NumLinesUncovered": 0
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7R000008eNW6UAM",
+          "Name": "StringBuilderTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            5,
+            6,
+            7,
+            10,
+            11
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "testSingleAppend",
+        "NumLinesCovered": 6,
+        "ApexClassOrTrigger": {
+          "Id": "01p7R00000BYpUSQA1",
+          "Name": "StringBuilder"
+        },
+        "NumLinesUncovered": 0
+      }
+    ],
+    "summary": {
+      "totalLines": 216,
+      "coveredLines": 142,
+      "orgWideCoverage": "62%",
+      "testRunCoverage": "66%"
+    }
+  }
+}
